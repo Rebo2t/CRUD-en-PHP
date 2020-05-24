@@ -1,1 +1,2 @@
-mo
+module.exports = {
+  presets: ['@vue/cli
