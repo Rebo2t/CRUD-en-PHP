@@ -1,4 +1,6 @@
 {
   "name": "platzi-exchange",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-servi
