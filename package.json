@@ -20,3 +20,4 @@
   "devDependencies": {
     "@ianaya89/vue-cli-plugin-tailwind": "~1.1.0",
     "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
