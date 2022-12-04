@@ -7,4 +7,5 @@
           <span>Ranking</span>
         </th>
         <th>Nombre</th>
-        <th>Pre
+        <th>Precio</th>
+        <th>Cap. de Mercado</t
