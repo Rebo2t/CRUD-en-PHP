@@ -8,4 +8,5 @@
         </th>
         <th>Nombre</th>
         <th>Precio</th>
-        <th>Cap. de Mercado</t
+        <th>Cap. de Mercado</th>
+        <th>Variación 24hs</th>
