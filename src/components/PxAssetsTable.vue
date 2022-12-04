@@ -5,4 +5,6 @@
         <th></th>
         <th>
           <span>Ranking</span>
-        </
+        </th>
+        <th>Nombre</th>
+        <th>Pre
