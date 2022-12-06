@@ -15,4 +15,5 @@
     </thead>
     <tbody>
       <tr
-   
+        v-for="a in assets"
+        :key=
