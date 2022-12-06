@@ -11,4 +11,8 @@
         <th>Cap. de Mercado</th>
         <th>Variación 24hs</th>
         <td class="hidden sm:block"></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
    
