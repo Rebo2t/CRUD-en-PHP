@@ -16,4 +16,5 @@
     <tbody>
       <tr
         v-for="a in assets"
-        :key=
+        :key="a.id"
+        class="border-b border-gray
