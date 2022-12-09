@@ -17,4 +17,7 @@
       <tr
         v-for="a in assets"
         :key="a.id"
-        class="border-b border-gray-200 hover:bg-gray-100 hover:bg-ora
+        class="border-b border-gray-200 hover:bg-gray-100 hover:bg-orange-100"
+      >
+        <td>
+          <i
