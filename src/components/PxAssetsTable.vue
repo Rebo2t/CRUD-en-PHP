@@ -20,4 +20,6 @@
         class="border-b border-gray-200 hover:bg-gray-100 hover:bg-orange-100"
       >
         <td>
-          <i
+          <img
+            class="w-6 h-6"
+          
