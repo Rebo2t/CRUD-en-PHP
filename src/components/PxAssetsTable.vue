@@ -23,4 +23,6 @@
           <img
             class="w-6 h-6"
             :src="
-              `https://static.coincap.io/assets/icons/${a.symbol.
+              `https://static.coincap.io/assets/icons/${a.symbol.toLowerCase()}@2x.png`
+            "
+            :al
