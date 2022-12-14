@@ -25,4 +25,7 @@
             :src="
               `https://static.coincap.io/assets/icons/${a.symbol.toLowerCase()}@2x.png`
             "
-            :al
+            :alt="a.name"
+          />
+        </td>
+        
