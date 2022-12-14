@@ -23,4 +23,4 @@
           <img
             class="w-6 h-6"
             :src="
-              `https://s
+              `https://static.coincap.io/assets/icons/${a.symbol.
