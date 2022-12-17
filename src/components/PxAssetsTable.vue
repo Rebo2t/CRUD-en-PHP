@@ -33,4 +33,4 @@
         </td>
         <td>
           <router-link
-    
+            class="hover:underline text-green-60
