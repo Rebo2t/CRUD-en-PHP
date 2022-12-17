@@ -31,4 +31,6 @@
         <td>
           <b>#{{ a.rank }}</b>
         </td>
-  
+        <td>
+          <router-link
+    
