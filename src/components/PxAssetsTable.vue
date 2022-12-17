@@ -28,4 +28,7 @@
             :alt="a.name"
           />
         </td>
-        
+        <td>
+          <b>#{{ a.rank }}</b>
+        </td>
+  
