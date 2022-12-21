@@ -35,4 +35,6 @@
           <router-link
             class="hover:underline text-green-600"
             :to="{ name: 'coin-detail', params: { id: a.id } }"
-        
+          >
+            {{ a.name }}
+          </router-li
