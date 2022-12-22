@@ -40,4 +40,6 @@
           </router-link>
           <small class="ml-1 text gray-500">{{ a.symbol }}</small>
         </td>
+        <td>
+          {{ a.priceUsd | dollar }}
       
