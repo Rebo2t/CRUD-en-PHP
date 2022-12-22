@@ -38,4 +38,6 @@
           >
             {{ a.name }}
           </router-link>
-          <small class="ml-1 text gray
+          <small class="ml-1 text gray-500">{{ a.symbol }}</small>
+        </td>
+      
