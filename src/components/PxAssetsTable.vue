@@ -37,4 +37,5 @@
             :to="{ name: 'coin-detail', params: { id: a.id } }"
           >
             {{ a.name }}
-          </router-li
+          </router-link>
+          <small class="ml-1 text gray
