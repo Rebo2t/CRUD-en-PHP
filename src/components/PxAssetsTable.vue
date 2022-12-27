@@ -44,4 +44,5 @@
           {{ a.priceUsd | dollar }}
         </td>
         <td>
-          {{
+          {{ a.marketCapUsd | dollar }}
+        </
