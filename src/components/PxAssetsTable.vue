@@ -42,4 +42,6 @@
         </td>
         <td>
           {{ a.priceUsd | dollar }}
-      
+        </td>
+        <td>
+          {{
