@@ -45,4 +45,7 @@
         </td>
         <td>
           {{ a.marketCapUsd | dollar }}
-        </
+        </td>
+        <td
+          :class="
+      
