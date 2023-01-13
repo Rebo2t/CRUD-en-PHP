@@ -49,4 +49,7 @@
         <td
           :class="
             a.changePercent24Hr.includes('-')
-   
+              ? 'text-red-600'
+              : 'text-green-600'
+          "
+        
