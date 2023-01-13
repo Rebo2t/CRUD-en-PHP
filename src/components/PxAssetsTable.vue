@@ -48,4 +48,5 @@
         </td>
         <td
           :class="
-      
+            a.changePercent24Hr.includes('-')
+   
