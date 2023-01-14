@@ -52,4 +52,5 @@
               ? 'text-red-600'
               : 'text-green-600'
           "
-        
+        >
+          {{ a.changePercent24Hr | 
