@@ -53,4 +53,7 @@
               : 'text-green-600'
           "
         >
-          {{ a.changePercent24Hr | 
+          {{ a.changePercent24Hr | percent }}
+        </td>
+        <td class="#">
+     
