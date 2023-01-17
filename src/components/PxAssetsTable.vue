@@ -56,4 +56,6 @@
           {{ a.changePercent24Hr | percent }}
         </td>
         <td class="#">
-          <px-button @custom-click="goToCoin(a.id)"
+          <px-button @custom-click="goToCoin(a.id)">
+            <span>
+              Detal
