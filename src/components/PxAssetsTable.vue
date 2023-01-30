@@ -58,4 +58,6 @@
         <td class="#">
           <px-button @custom-click="goToCoin(a.id)">
             <span>
-              Detal
+              Detalle
+            </span>
+          </px
