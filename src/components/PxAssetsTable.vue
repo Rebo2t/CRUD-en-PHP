@@ -60,4 +60,7 @@
             <span>
               Detalle
             </span>
-          </px
+          </px-button>
+        </td>
+      </tr>
+    </tbody>
