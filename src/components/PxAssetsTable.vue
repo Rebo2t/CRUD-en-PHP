@@ -70,4 +70,6 @@
 <script>
 import PxButton from '@/components/PxButton'
 
-export
+export default {
+  name: 'PxAssetsTable',
+
