@@ -68,4 +68,6 @@
 </template>
 
 <script>
-impo
+import PxButton from '@/components/PxButton'
+
+export
