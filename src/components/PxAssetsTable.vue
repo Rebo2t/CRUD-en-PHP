@@ -75,4 +75,7 @@ export default {
 
   components: { PxButton },
 
-  props:
+  props: {
+    assets: {
+      type: Array,
+ 
