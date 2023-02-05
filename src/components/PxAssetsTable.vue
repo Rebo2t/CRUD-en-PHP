@@ -73,3 +73,6 @@ import PxButton from '@/components/PxButton'
 export default {
   name: 'PxAssetsTable',
 
+  components: { PxButton },
+
+  props:
