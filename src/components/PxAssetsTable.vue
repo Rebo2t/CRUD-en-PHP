@@ -82,4 +82,6 @@ export default {
     }
   },
 
-  methods
+  methods: {
+    goToCoin(id) {
+      this.$router.pu
