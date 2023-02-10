@@ -78,4 +78,8 @@ export default {
   props: {
     assets: {
       type: Array,
- 
+      default: () => []
+    }
+  },
+
+  methods
