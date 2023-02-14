@@ -91,4 +91,9 @@ export default {
 </script>
 
 <style scoped>
-.up
+.up::before {
+  content: '👆';
+}
+
+.down::before {
+  co
