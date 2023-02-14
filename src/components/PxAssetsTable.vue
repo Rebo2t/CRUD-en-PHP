@@ -85,3 +85,10 @@ export default {
   methods: {
     goToCoin(id) {
       this.$router.push({ name: 'coin-detail', params: { id } })
+    }
+  }
+}
+</script>
+
+<style scoped>
+.up
