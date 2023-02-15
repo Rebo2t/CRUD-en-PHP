@@ -96,4 +96,9 @@ export default {
 }
 
 .down::before {
-  co
+  content: '👇';
+}
+
+td {
+  padding: 20px 0px;
+  fo
