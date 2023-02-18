@@ -111,4 +111,10 @@ th {
 }
 
 @media (min-width: 640px) {
-  t
+  td,
+  th {
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  th {
