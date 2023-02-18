@@ -107,4 +107,8 @@ td {
 
 th {
   padding: 5px;
-  font-size: 0.6rem
+  font-size: 0.6rem;
+}
+
+@media (min-width: 640px) {
+  t
