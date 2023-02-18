@@ -102,4 +102,9 @@ export default {
 td {
   padding: 20px 0px;
   font-size: 0.6rem;
-  text-align: cente
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+  font-size: 0.6rem
