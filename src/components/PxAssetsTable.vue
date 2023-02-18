@@ -101,4 +101,5 @@ export default {
 
 td {
   padding: 20px 0px;
-  fo
+  font-size: 0.6rem;
+  text-align: cente
