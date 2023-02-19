@@ -118,3 +118,7 @@ th {
   }
 
   th {
+    padding: 12px;
+  }
+}
+</style>
