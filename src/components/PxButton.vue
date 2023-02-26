@@ -5,4 +5,9 @@
   >
     <beat-loader :loading="isLoading" :color="'#68d391'" :size="8" />
     <p v-show="!isLoading">
-      <sl
+      <slot></slot>
+    </p>
+  </button>
+</template>
+
+<
