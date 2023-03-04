@@ -16,3 +16,6 @@ export default {
 
   props: {
     isLoading: {
+      type: Boolean,
+      default: false
+  
