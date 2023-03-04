@@ -12,4 +12,7 @@
 
 <script>
 export default {
-  name: 'Px
+  name: 'PxButton',
+
+  props: {
+    isLoading: {
