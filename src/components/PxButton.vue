@@ -18,4 +18,9 @@ export default {
     isLoading: {
       type: Boolean,
       default: false
-  
+    }
+  },
+
+  methods: {
+    buttonClick() {
+   
