@@ -7,4 +7,6 @@
           <router-link
             :to="{ name: 'home' }"
             class="font-semibold text-xl tracking-tight"
-          >Fanance Exc
+          >Fanance Exchange</router-link>
+        </div>
+        <
