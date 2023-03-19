@@ -6,4 +6,5 @@
           <px-icon class="mr-2" />
           <router-link
             :to="{ name: 'home' }"
-            class="font-semibold text-xl t
+            class="font-semibold text-xl tracking-tight"
+          >Fanance Exc
