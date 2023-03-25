@@ -9,4 +9,5 @@
             class="font-semibold text-xl tracking-tight"
           >Fanance Exchange</router-link>
         </div>
-        <div class="hidden sm:block w-full block flex-grow lg:flex lg:items-center l
+        <div class="hidden sm:block w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-s
