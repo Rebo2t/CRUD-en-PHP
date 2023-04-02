@@ -12,4 +12,6 @@
         <div class="hidden sm:block w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
             <router-link
-              v-for="l in links
+              v-for="l in links"
+              :key="l.title"
+       
