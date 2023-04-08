@@ -14,4 +14,5 @@
             <router-link
               v-for="l in links"
               :key="l.title"
-       
+              :to="l.to"
+              class="block mt-4 lg
