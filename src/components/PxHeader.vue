@@ -25,4 +25,6 @@
 </template>
 
 <script>
-import PxIcon from '@
+import PxIcon from '@/components/PxIcon'
+
+export defaul
