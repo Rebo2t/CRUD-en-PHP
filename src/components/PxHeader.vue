@@ -27,4 +27,6 @@
 <script>
 import PxIcon from '@/components/PxIcon'
 
-export defaul
+export default {
+  name: 'PxHeader',
+  components: {
