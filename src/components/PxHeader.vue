@@ -29,4 +29,7 @@ import PxIcon from '@/components/PxIcon'
 
 export default {
   name: 'PxHeader',
-  components: {
+  components: { PxIcon },
+
+  props: {
+    
