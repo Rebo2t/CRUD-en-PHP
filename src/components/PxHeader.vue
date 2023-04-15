@@ -32,4 +32,6 @@ export default {
   components: { PxIcon },
 
   props: {
-    
+    links: {
+      type: Array,
+ 
