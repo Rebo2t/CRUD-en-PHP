@@ -1,3 +1,4 @@
 <template>
   <div class="flex-col items-center">
-    <h1 class="text-gray-700 text-6xl">Platzi Ex
+    <h1 class="text-gray-700 text-6xl">Platzi Exchange v1.0.0</h1>
+    <p class="text-gray-
