@@ -4,4 +4,5 @@
     <p class="text-gray-600 text-xl text-center">
       Proyecto para obtener las cotizaciones de las cryptomonedas mas
       importantes a traves de la API REST de Coincap.
-      <br />Este proyecto es utilizado en el
+      <br />Este proyecto es utilizado en el curo de Vue.js Basico de Platzi
+   
