@@ -8,4 +8,4 @@
     </p>
 
     <router-link to="/" class="mt-5 text-xl text-green-600 hover:underline"
-      >Vol
+      >Volver a la pagina de Inicio</router-link
