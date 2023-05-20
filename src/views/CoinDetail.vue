@@ -83,3 +83,45 @@
       <table>
         <tr v-for="m in markets" :key="`${m.exchangeId}-${m.priceUsd}`" class="border-b">
           <td>
+            <b>{{ m.exchangeId }}</b>
+          </td>
+          <td>{{ m.priceUsd | dollar }}</td>
+          <td>{{ m.baseSymbol }} / {{ m.quoteSymbol }}</td>
+          <td>
+            <px-button
+              :is-loading="m.isLoading || false"
+              v-if="!m.url"
+              @custom-click="getWebSite(m)"
+            >
+              <slot>Obtener Link</slot>
+            </px-button>
+            <a v-else class="hover:underline text-green-600" target="_blanck">{{ m.url }}</a>
+          </td>
+        </tr>
+      </table>
+    </template>
+  </div>
+</template>
+
+<script>
+import api from '@/api'
+import PxButton from '@/components/PxButton'
+
+export default {
+  name: 'CoinDetail',
+
+  components: { PxButton },
+
+  data() {
+    return {
+      isLoading: false,
+      asset: {},
+      history: [],
+      markets: [],
+      fromUsd: true,
+      convertValue: null
+    }
+  },
+
+  computed: {
+    convertResult() {
