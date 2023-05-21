@@ -125,3 +125,40 @@ export default {
 
   computed: {
     convertResult() {
+      if (!this.convertValue) {
+        return 0
+      }
+
+      const result = this.fromUsd
+        ? this.convertValue / this.asset.priceUsd
+        : this.convertValue * this.asset.priceUsd
+
+      return result.toFixed(4)
+    },
+
+    min() {
+      return Math.min(
+        ...this.history.map(h => parseFloat(h.priceUsd).toFixed(2))
+      )
+    },
+
+    max() {
+      return Math.max(
+        ...this.history.map(h => parseFloat(h.priceUsd).toFixed(2))
+      )
+    },
+
+    avg() {
+      return Math.abs(
+        ...this.history.map(h => parseFloat(h.priceUsd).toFixed(2))
+      )
+    }
+  },
+
+  watch: {
+    $route() {
+      this.getCoin()
+    }
+  },
+
+  created() {
