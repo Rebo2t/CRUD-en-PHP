@@ -162,3 +162,42 @@ export default {
   },
 
   created() {
+    this.getCoin()
+  },
+
+  methods: {
+    toggleConverter() {
+      this.fromUsd = !this.fromUsd
+    },
+
+    getWebSite(exchange) {
+      this.$set(exchange, 'isLoading', true)
+
+      return api
+        .getExchange(exchange.exchangeId)
+        .then(res => {
+          this.$set(exchange, 'url', res.exchangeUrl)
+        })
+        .finally(() => {
+          this.$set(exchange, 'isLoading', false)
+        })
+    },
+
+    getCoin() {
+      const id = this.$route.params.id
+      this.isLoading = true
+
+      Promise.all([
+        api.getAsset(id),
+        api.getAssetHistory(id),
+        api.getMarkets(id)
+      ])
+        .then(([asset, history, markets]) => {
+          this.asset = asset
+          this.history = history
+          this.markets = markets
+        })
+        .finally(() => (this.isLoading = false))
+    }
+  }
+}
